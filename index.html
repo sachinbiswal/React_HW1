@@ -14,29 +14,22 @@
         let div1 = React.createElement('div',{
             style : {
                 position: 'absolute',
-                left:'25%',
-                // top:'5%',
-                width:620,
-                // height:800,
+                left:'20%',
+                width:820,
                 display:'flex',
                 flexDirection:'column',
                 alignText:'flex-start',
                 justifyContent:'center',
-                boxShadow:'0 0 10px black',
+                boxShadow:'0 0 1px 0',
                 borderRadius : '8px',
-                        //  inset:'3px 3px 3px 3px black'
                 padding:"20px",
                 margin:'20px',
                 fontWeight:700,
-                // backgroundColor:'black'
-
             }
 
           },[
             React.createElement('h1',null,"Topics Covered"),
             React.createElement('p',null,"The followings is a list of all topics we covered in the MDN learning area."),
-        // ])
-        // let div2 = React.createElemrnt('div',null,[
             React.createElement('h3',{style: {color: "blue",textDecoration:"underline"}},"Getting Started with the Web"),
             React.createElement('p',null,"Provides a practical introduction to Web development for complete beginners."),
             React.createElement('h3',{style: {color: "blue",textDecoration:"underline"}},"HTML-Structuring the Web"),
@@ -47,7 +40,6 @@
         ])
          
         ReactDOM.render(div1,document.getElementById('root'))
-        // ReactDOM.render(div2,document.getElemrentById('root'))
 
     </script>
     
